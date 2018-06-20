@@ -32,7 +32,7 @@ public class MyListFragment extends ListFragment implements AdapterView.OnItemCl
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Toast.makeText(getActivity(),"Item "+(position+1) ,Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(),"Item "+(position+1)+" Clicked" ,Toast.LENGTH_SHORT).show();
         FragmentManager manager = getFragmentManager();
         FragmentTransaction transaction  = manager.beginTransaction();
         manager.addOnBackStackChangedListener(this);
