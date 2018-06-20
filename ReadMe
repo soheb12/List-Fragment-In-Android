@@ -1,0 +1,3 @@
+Here a listview is created by using listfragment class .
+Every time a list item is selected it is added to backstack and current stack top element is also displayed.
+Even when you press the back button you dont go to home screen instead a toast appears showing you the previously selected list item.
